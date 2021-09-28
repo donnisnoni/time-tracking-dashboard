@@ -14,3 +14,16 @@
   --clr-desaturated-blue: hsl(235, 45%, 61%);
   --clr-pale-blue: hsl(236, 100%, 87%);
 }
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--clr-very-dark-blue);
+  color: #fff;
+  font-family: "Rubik", sans-serif;
+  font-size: 18px;
+}
