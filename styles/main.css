@@ -1,0 +1,16 @@
+:root {
+  /* Primary Colors */
+  --clr-blue: hsl(246, 80%, 60%);
+  --clr-light-red-1: hsl(15, 100%, 70%);
+  --clr-light-red-2: hsl(348, 100%, 68%);
+  --clr-soft-blue: hsl(195, 74%, 62%);
+  --clr-lime-green: hsl(145, 58%, 55%);
+  --clr-violet: hsl(264, 64%, 52%);
+  --clr-lime-green: hsl(43, 84%, 65%);
+
+  /* Neutral Colors */
+  --clr-very-dark-blue: hsl(226, 43%, 10%);
+  --clr-dark-blue: hsl(235, 46%, 20%);
+  --clr-desaturated-blue: hsl(235, 45%, 61%);
+  --clr-pale-blue: hsl(236, 100%, 87%);
+}
