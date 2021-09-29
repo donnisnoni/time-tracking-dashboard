@@ -171,10 +171,12 @@ body {
 }
 
 .card-content .card-caption {
-  font-weight: bold;
-  margin-bottom: 0.7em;
+  font-weight: 500;
+  font-size: 18px;
+  margin-bottom: 0.6em;
 }
 
 .card-content .hours {
-  font-size: 2.3em;
+  font-weight: 300;
+  font-size: 2.5em;
 }
