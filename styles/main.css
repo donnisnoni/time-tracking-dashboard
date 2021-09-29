@@ -170,6 +170,10 @@ body {
   margin-bottom: auto;
 }
 
+.card-content :is(.prev-time-hours, .card-btn-menu) {
+  color: var(--clr-pale-blue);
+}
+
 .card-content .card-caption {
   font-weight: 500;
   font-size: 18px;
