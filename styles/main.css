@@ -75,7 +75,7 @@ body {
 
 .sidebar .main-nav {
   font-size: 1.1em;
-  color: hsl(236deg 29% 57%);
+  color: var(--clr-desaturated-blue);
   display: flex;
   border-bottom-left-radius: var(--card-border-size);
   border-bottom-right-radius: var(--card-border-size);
