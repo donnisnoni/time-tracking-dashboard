@@ -24,6 +24,11 @@
   box-sizing: border-box;
 }
 
+button {
+  background-color: transparent;
+  border: none;
+}
+
 body {
   background-color: var(--clr-very-dark-blue);
   color: #fff;
@@ -156,6 +161,15 @@ body {
 
 .card-content > *:nth-child(2) {
   flex-wrap: wrap;
+}
+
+.card-content .card-btn-menu {
+  width: 2em;
+  height: 1.5em;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  user-select: none;
 }
 
 .card-content .card-btn-menu,
