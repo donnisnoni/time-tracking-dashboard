@@ -27,6 +27,7 @@
 button {
   background-color: transparent;
   border: none;
+  color: inherit;
 }
 
 body {
@@ -63,6 +64,7 @@ body {
   border-radius: var(--card-border-size);
   display: flex;
   width: 100%;
+  z-index: 1;
 }
 
 .sidebar .report-for {
@@ -73,6 +75,7 @@ body {
 
 .sidebar .user-name {
   font-size: 1.6em;
+  font-weight: 300;
   color: #fff;
 }
 
@@ -99,7 +102,15 @@ body {
   padding-bottom: 1.5rem;
   position: absolute;
   top: calc(100% - 1rem);
-  z-index: -1;
+}
+
+.main-nav > button {
+  font-size: 1.2rem;
+}
+
+.main-nav > button.active,
+.main-nav > button:hover {
+  color: #fff;
 }
 
 .card {
