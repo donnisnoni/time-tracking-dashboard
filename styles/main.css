@@ -218,6 +218,10 @@ body {
 }
 
 @media (min-width: 968px) {
+  .container {
+    max-width: 1300px;
+  }
+
   .main {
     grid-template-columns: 340px 1fr;
     grid-template-rows: 1fr;
@@ -250,5 +254,28 @@ body {
 
   .user-name {
     font-size: 3em !important;
+  }
+
+  .card {
+    margin-bottom: 0;
+  }
+
+  .cards-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 1em;
+  }
+
+  .card-content > *:nth-child(2) {
+    flex-direction: column;
+  }
+
+  .card-content .hours {
+    font-size: 3rem;
+  }
+
+  .card-content .prev-time-hours {
+    margin-left: initial;
+    margin-top: 0.5em;
   }
 }
