@@ -256,6 +256,17 @@ body {
     font-size: 3em !important;
   }
 
+  .main-nav {
+    flex-direction: column;
+  }
+
+  .main-nav > button {
+    margin-top: 0.4em;
+    margin-bottom: 0.4em;
+    padding-left: 2em;
+    text-align: initial;
+  }
+
   .card {
     margin-bottom: 0;
   }
