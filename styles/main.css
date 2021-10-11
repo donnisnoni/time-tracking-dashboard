@@ -57,6 +57,7 @@ body {
 }
 
 .sidebar .user-info {
+  position: relative;
   justify-content: center;
   align-items: center;
   padding: 2.5em;
@@ -64,7 +65,7 @@ body {
   border-radius: var(--card-border-size);
   display: flex;
   width: 100%;
-  z-index: 1;
+  z-index: 2;
 }
 
 .sidebar .report-for {
@@ -214,4 +215,40 @@ body {
 .card-content .hours {
   font-weight: 300;
   font-size: 2.5em;
+}
+
+@media (min-width: 968px) {
+  .main {
+    grid-template-columns: 340px 1fr;
+    grid-template-rows: 1fr;
+  }
+
+  .sidebar {
+    grid-row: 1 / -10;
+    margin-right: 2em;
+    justify-content: initial;
+    max-height: 400px;
+  }
+
+  .sidebar > div {
+    min-height: 300px;
+    width: 100%;
+  }
+
+  .user-info {
+    flex-direction: column;
+  }
+
+  .user-info .avatar,
+  .user-info > div {
+    align-self: start;
+  }
+
+  .user-info > div {
+    margin-top: 2rem;
+  }
+
+  .user-name {
+    font-size: 3em !important;
+  }
 }
