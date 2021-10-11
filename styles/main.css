@@ -60,6 +60,12 @@ body {
   width: 100%;
 }
 
+.sidebar .report-for {
+  color: var(--clr-pale-blue);
+  line-height: 30px;
+  font-weight: 500;
+}
+
 .sidebar .user-name {
   font-size: 1.6em;
   color: #fff;
