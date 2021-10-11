@@ -254,6 +254,7 @@ body {
 
   .user-name {
     font-size: 3em !important;
+    margin-bottom: 2em;
   }
 
   .main-nav {
