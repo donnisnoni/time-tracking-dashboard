@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Time tracking dashboard</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="styles/main.css" />
+
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 100%, 83%);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <main class="main">
+        <!-- SIDEBAR -->
+        <div class="sidebar">
+          <div style="display: flex; width: 100%; position: relative">
+            <div class="user-info">
+              <img class="avatar" src="./images/image-jeremy.png" alt="" />
+              <div>
+                <div class="report-for">Report for</div>
+                <div class="user-name">Jeremy Robson</div>
+              </div>
+            </div>
+            <div class="main-nav">
+              <button>Daily</button>
+              <button class="active">Weekly</button>
+              <button>Monthly</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="cards-container">
+          <div class="card">
+            <div class="card-bg card-work"></div>
+            <div class="card-content">
+              <div>
+                <div class="card-caption">Work</div>
+                <button class="card-btn-menu">
+                  <img src="./images/icon-ellipsis.svg" alt="" srcset="" />
+                </button>
+              </div>
+              <div>
+                <div class="hours">32hrs</div>
+                <div class="prev-time-hours">Last Week - 36hrs</div>
+              </div>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="card-bg card-play"></div>
+            <div class="card-content">
+              <div>
+                <div class="card-caption">Play</div>
+                <button class="card-btn-menu">
+                  <img src="./images/icon-ellipsis.svg" alt="" srcset="" />
+                </button>
+              </div>
+              <div>
+                <div class="hours">10hrs</div>
+                <div class="prev-time-hours">Last Week - 8hrs</div>
+              </div>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="card-bg card-study"></div>
+            <div class="card-content">
+              <div>
+                <div class="card-caption">Study</div>
+                <button class="card-btn-menu">
+                  <img src="./images/icon-ellipsis.svg" alt="" srcset="" />
+                </button>
+              </div>
+              <div>
+                <div class="hours">4hrs</div>
+                <div class="prev-time-hours">Last Week - 7hrs</div>
+              </div>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="card-bg card-excercise"></div>
+            <div class="card-content">
+              <div>
+                <div class="card-caption">Excercise</div>
+                <button class="card-btn-menu">
+                  <img src="./images/icon-ellipsis.svg" alt="" srcset="" />
+                </button>
+              </div>
+              <div>
+                <div class="hours">4hrs</div>
+                <div class="prev-time-hours">Last Week - 5hrs</div>
+              </div>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="card-bg card-social"></div>
+            <div class="card-content">
+              <div>
+                <div class="card-caption">Social</div>
+                <button class="card-btn-menu">
+                  <img src="./images/icon-ellipsis.svg" alt="" srcset="" />
+                </button>
+              </div>
+              <div>
+                <div class="hours">5hrs</div>
+                <div class="prev-time-hours">Last Week - 2hrs</div>
+              </div>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="card-bg card-self-care"></div>
+            <div class="card-content">
+              <div>
+                <div class="card-caption">Self Care</div>
+                <button class="card-btn-menu">
+                  <img src="./images/icon-ellipsis.svg" alt="" srcset="" />
+                </button>
+              </div>
+              <div>
+                <div class="hours">2hrs</div>
+                <div class="prev-time-hours">Last Week - 2hrs</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </main>
+    </div>
+
+    <!-- <div class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by
+      <a href="https://donnisnoni.github.com">Don Alfons Nisnoni</a>.
+    </div> -->
+  </body>
+</html>
