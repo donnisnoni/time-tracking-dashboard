@@ -114,6 +114,12 @@ body {
   color: #fff;
 }
 
+.cards-container {
+  margin-top: 1rem;
+  display: grid;
+  grid-gap: 0.5rem;
+}
+
 .card {
   margin-top: 3em;
   margin-bottom: 1em;
@@ -278,13 +284,13 @@ body {
   }
 
   .cards-container {
-    display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-gap: 1em;
+    grid-gap: 2rem;
   }
 
   .card-bg {
     height: 4rem;
+    background-position: calc(100% - 15px);
   }
 
   .card-content > *:nth-child(2) {
