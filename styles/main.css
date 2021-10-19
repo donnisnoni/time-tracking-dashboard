@@ -6,14 +6,14 @@
   --clr-soft-blue: hsl(195, 74%, 62%);
   --clr-lime-green: hsl(145, 58%, 55%);
   --clr-violet: hsl(264, 64%, 52%);
-  --clr-lime-green: hsl(43, 84%, 65%);
+  --clr-soft-orange: hsl(43, 84%, 65%);
 
   /* Neutral Colors */
   --clr-very-dark-blue: hsl(226, 43%, 10%);
   --clr-dark-blue: hsl(235, 46%, 20%);
   --clr-desaturated-blue: hsl(235, 45%, 61%);
   --clr-pale-blue: hsl(236, 100%, 87%);
-  --clr-soft-orange: hsl(43, 84%, 65%);
+  --clr-hover-card: hsl(236deg 41% 34%);
 
   --card-border-size: 10px;
 }
@@ -164,7 +164,12 @@ body {
 .card-content {
   background-color: var(--clr-dark-blue);
   border-radius: var(--card-border-size);
+  cursor: pointer;
   padding: 2rem 1.5rem;
+}
+
+.card-content:hover {
+  background-color: var(--clr-hover-card);
 }
 
 .card-content > * {
@@ -269,13 +274,17 @@ body {
   }
 
   .card {
-    margin-bottom: 0;
+    margin-bottom: 0.5rem;
   }
 
   .cards-container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 1em;
+  }
+
+  .card-bg {
+    height: 4rem;
   }
 
   .card-content > *:nth-child(2) {
