@@ -61,7 +61,7 @@ body {
   justify-content: center;
   align-items: center;
   padding: 2.5em;
-  background-color: var(--clr-violet);
+  background-color: var(--clr-blue);
   border-radius: var(--card-border-size);
   display: flex;
   width: 100%;
